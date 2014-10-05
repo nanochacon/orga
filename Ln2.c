@@ -4,8 +4,8 @@
 #include <getopt.h>
 
 double ln(double n)
-{	double resultado,x,y,z;
-	y=(n-1);
+{	double resultado,x,y,z; // se agregan variables 'y' y 'z' para dividir los factores de la consante 'x'
+	y=(n-1); // mas pipeline para que el calculo sea mas rapido
 	z=(n+1);
 	x=(y/z); 
 	resultado = x 
