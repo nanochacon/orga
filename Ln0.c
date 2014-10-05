@@ -5,7 +5,7 @@
 
 double ln(double n)
 { 
-	double resultado; 
+	double resultado; // double que guarda el resultado de la formula de logaritmo natural
 	resultado = ((n-1)/(n+1)) //Primera version sin pipeline
 	+ ((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))/3
 	+ ((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))/5
