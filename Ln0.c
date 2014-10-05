@@ -56,7 +56,7 @@ int main(int argc, char *argv[]){
 	  
 	  double total; 
 	  for (a=0; a < i; a++){ //todas las iteraciones (i=numero de iteraciones ingresadas)
-	    total = ln(num); 
+	      total = ln(num); 
 	  }
 	printf("%f\n", total); 
 	}
