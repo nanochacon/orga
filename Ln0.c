@@ -6,7 +6,7 @@
 double ln(double n)
 { 
 	double resultado; 
-	resultado = ((n-1)/(n+1))
+	resultado = ((n-1)/(n+1)) //Primera version sin pipeline
 	+ ((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))/3
 	+ ((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))/5
 	+ ((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))*((n-1)/(n+1))/7
