@@ -4,7 +4,7 @@
 #include <getopt.h>
 
 double ln(double n)
-{	double resultado,x,y,z,c1,c2,c3,c4,c5,c6;
+{	double resultado,x,y,z,c1,c2,c3,c4,c5,c6; // se agregan las constantes 'ci' para hacer mas rapido el calculo
 	y=(n-1);
 	z=(n+1);
 	x=(y/z);
