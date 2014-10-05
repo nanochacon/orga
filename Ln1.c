@@ -18,7 +18,7 @@ double ln(double n)
  
 int main(int argc, char *argv[]){
 	int i;// para guardar el numero ingresado
-	int num; //para guardar la cantidad de iteraciones
+	double num; //para guardar la cantidad de iteraciones
 	int a; //para el ciclo for
 	int b; //para leer usando getopt
 	int errflg=0; //para gestionar los ingresos incorrectos
