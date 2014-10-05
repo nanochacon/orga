@@ -4,8 +4,8 @@
 #include <getopt.h>
 
 double ln(double n)
-{	double resultado,x;
-	x=((n-1)/(n+1)); 
+{	double resultado,x; // Se agrega la variable x para que guarde el resultado de una constante en la formula
+	x=((n-1)/(n+1));  // comienza a haber pipeline dividiendo las tareas de la formula
 	resultado = x 
 	+ x*x*x/3 
 	+ x*x*x*x*x/5 
