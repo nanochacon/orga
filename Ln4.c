@@ -4,7 +4,7 @@
 #include <getopt.h>
 double ln(double n)
 { 	double resultado,x,y,z,c1,c2,c3,c4,c5,c6,suma1,suma2,suma3,suma4,suma5,a1;
-	y=(n-1);
+	y=(n-1); // se cran sumas para hacer mas sumas paralelamente, envez de una grande en resultado
 	z=(n+1);
 	x=(y/z);
 	c1=0.33333333;
